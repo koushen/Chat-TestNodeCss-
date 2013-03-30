@@ -8,7 +8,7 @@ var app = express()
   , server = http.createServer(app)
   , io = require('socket.io').listen(server);
 
-var PORT = 8080;
+var PORT = process.env.PORT || 8080;
 server.listen(PORT, function (){
 	console.log("listening on port " + PORT)
 });
