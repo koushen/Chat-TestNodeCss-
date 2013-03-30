@@ -8,5 +8,4 @@ block content
 		ol#messages
 	
 		div
-			input#message(type='text')
-			input#submit-message(type='button',value = "submit")
+			input#submit-message
