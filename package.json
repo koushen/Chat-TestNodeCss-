@@ -1,7 +1,7 @@
 {
 	"name": "ChatParaChatungos",
 	"version": "0.0.1",
-	"dependences": {
+	"dependences":	{
 		"express": "latest"
 		"jade": "latest",
 		"socket.io": "latest"
